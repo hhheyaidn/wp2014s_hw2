@@ -1,0 +1,46 @@
+header{
+	background:rgb(128, 32, 32);
+	width: 100%;
+	padding:0px;
+
+}
+body{
+	margin:0px;
+}
+.main-header__headshot img{
+	height: 150px;
+	width: 150px;
+	border: 6px solid white;
+	margin-left: 40px;
+	margin-top: 30px;
+	position:relative;
+	top:40px;
+}
+
+.self{
+	text-align:center;
+	position:relative;
+	bottom:100px;
+}
+
+section{
+	background:black;
+	height:400px;
+	margin:0px;
+}
+
+article{
+	color:white;
+	font-size:18px;
+	font-family: Verdana, sans-serif;
+	text-align:center;
+	position:relative;
+	top:80px;
+}
+
+article a{
+	text-decoration: none;
+	font-size:2em;
+	position:relative;
+	top:60px;
+}

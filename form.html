@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	   <meta charset="UTF-8">
+	   
+	   <link rel="stylesheet" type="text/css" href="form_css.css">
+	   
+	   <title>Contact Form</title>
+   </head>
+   <body>
+	   <div class="container_12">
+	   <form action="https://docs.google.com/spreadsheet/formResponse?formkey=dDZ3dGNNLVFBTjR4bktTNGhQVEFfa3c6MA&amp;ifq" method="POST">
+ 				<div class="content">
+ 					<h1>Contact Me</h1>
+ 					<input type="hidden" name="entry.0.single" value="100703007"></input>
+
+					<p>Gender</p>
+					<input type="radio" name="entry.1.group" value="Boy">Boy</input><br/>
+ 					<input type="radio" name="entry.1.group" value="Girl">Girl</input><br/>
+					<input type="radio" name="entry.1.group" value="Secret">Secret</input><br/>
+
+					<p>Favorite Foods</p>
+ 					<input type="checkbox" name="entry.2.group" value="Apple">Apple</input><br>
+ 					<input type="checkbox" name="entry.2.group" value="Banana">Banana</input><br>
+ 					<input type="checkbox" name="entry.2.group" value="Lemon">Lemon</input><br/>
+ 					<input type="checkbox" name="entry.2.group" value="Watermelon">Watermalon</input><br/>
+					
+					
+					<p>Relationship</p>
+ 					<select name="entry.3.single">
+ 				  		<option value="single">single</option>
+ 				  		<option value="dating">dating</option>
+ 				  		<option value="married">married</option>
+ 				  		<option value="hard to explain">hard to explain</option>
+ 					</select>
+					<br/>
+					
+					<p>Email</p>
+ 					<input class="email" type="email" name="entry.4.single" placeholder="Please fill in your email here"></input><br/>
+					
+					<p>Comments</p>
+ 					<textarea class="comment" type="text" name="entry.5.single" placeholder="Any comment is welcomed here"></textarea><br/>
+ 					<input class="submit" type="submit" name="submit" value="Submit"></input>  
+ 				</div>     
+	   </form>
+   </div>
+   </body>
+</html>
